@@ -31,6 +31,12 @@
     vertical-align: middle;
   }
   
+  td a{
+
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
   .toggle-button {
     width: 3rem;
     background: transparent;
@@ -561,6 +567,7 @@
   min-width: 400px;
   width: 5rem;
   border-radius: 5px 5px 0 0;
+  border-bottom: 1px solid black;
   overflow: hidden;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
@@ -612,4 +619,20 @@
   height: 8vh;
   background: whitesmoke;
   color: #204969;
+}
+
+.buttonz {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.buttonz:hover {
+  background-color: #555;
 }
