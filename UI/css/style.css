@@ -520,17 +520,17 @@
 
 .mentor-info{
   width: 45%;
-  height: 45vh;
+  height: 40vh;
   border: 2px solid gray;
   border-radius: 5px 5px 0 0;
   overflow: hidden;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
 }
 
-.mentor-info p{
-  text-align: center;
-  font-style: italic;
+.mentor-info table{
+  padding-top: 2rem;
 }
+
 
 .mentor-info span{
   font-weight: bold;
@@ -585,4 +585,31 @@
 
 .content-table tbody tr:nth-of-type(even) {
   background-color: #f3f3f3;
+}
+
+
+.profile{
+  background: url("../images/profile.jpg") center/cover no-repeat;
+  height: 50vh;
+  width: 30rem;
+  border-radius: 5rem;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.session-request input[type="submit"] {
+  display: block;
+  margin-top: 1rem;
+  width: 13rem;
+  height: 8vh;
+  background: #204969
+}
+
+.session-request input[type="submit"]:hover {
+  display: block;
+  margin-top: 1rem;
+  width: 13rem;
+  height: 8vh;
+  background: whitesmoke;
+  color: #204969;
 }
