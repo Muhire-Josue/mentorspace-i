@@ -1,4 +1,4 @@
-# mentorspace
+# MentorSpace
 Is a web app that helps people to get mentorship sessions with different mentors
 ### User interface (UI)
 * `html`
